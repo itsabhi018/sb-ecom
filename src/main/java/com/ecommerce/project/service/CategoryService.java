@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 public interface CategoryService {
 
-     CategoryResponse getAllCategories(Integer pageNumber, Integer pageSize);
+     CategoryResponse getAllCategories(Integer pageNumber, Integer pageSize, String sortBy, String sortOrder);
 
      CategoryDTO createCategory(CategoryDTO categoryDTO);
 
